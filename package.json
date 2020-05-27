@@ -1,0 +1,25 @@
+{
+  "name": "natours_api",
+  "version": "1.0.0",
+  "description": "Natours_api",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GnExia2/Natours_API.git"
+  },
+  "author": "Garrick Ngai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GnExia2/Natours_API/issues"
+  },
+  "homepage": "https://github.com/GnExia2/Natours_API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
