@@ -39,17 +39,18 @@ exports.getAllTours = (req, res) => {
 }
 
 exports.getTour = (req, res) => {
+  console.log(req.params);
   const id = req.params.id * 1;
 
   const tour = tours.find(el => el.id === id);
 
   res.status(200).json({
     status: 'success',
-    data:  {
+    data: {
       tour
     }
   });
-}
+};
 
 exports.createTour = (req, res) => {
   const newId = tours[tours.length-1].id + 1;
